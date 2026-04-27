@@ -86,18 +86,6 @@
     text-align: center;
   }
 
-  .scene-heading {
-    font-family: 'GFS Didot', serif;
-    font-size: 11px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--green);
-    margin-top: 56px;
-    margin-bottom: 24px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--rule);
-  }
-
   .stage-direction {
     font-style: italic;
     color: var(--green-light);
@@ -108,6 +96,10 @@
 
   .speech {
     margin: 20px 0;
+  }
+
+  .speech .stage-direction {
+    margin: 4px 0;
   }
 
   .speaker {
@@ -229,7 +221,8 @@
 
 <div class="speech">
   <div class="speaker">The First Student</div>
-  <div class="line">(without looking up from his raking)<br>And who did it belong to?</div>
+  <div class="stage-direction">(without looking up from his raking)</div>
+  <div class="line">And who did it belong to?</div>
 </div>
 
 <div class="speech">
@@ -293,7 +286,8 @@
 
 <div class="speech">
   <div class="speaker">The New Student</div>
-  <div class="line">(quietly)<br>He liked them.</div>
+  <div class="stage-direction">(quietly)</div>
+  <div class="line">He liked them.</div>
 </div>
 
 <div class="speech">
@@ -324,7 +318,8 @@
 
 <div class="speech">
   <div class="speaker">The New Student</div>
-  <div class="line">(looking at his own hands)<br>I have never had my hands this dirty.</div>
+  <div class="stage-direction">(looking at his own hands)</div>
+  <div class="line">I have never had my hands this dirty.</div>
 </div>
 
 <div class="speech">
